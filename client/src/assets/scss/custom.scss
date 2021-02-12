@@ -1,0 +1,158 @@
+.bl-bg{
+    background-color: $darkBlue;
+    span{
+        font: normal $font-size-base 'Open Sans';
+        color: $gray-200;
+    }
+    .title-text{
+        font: normal bold 1em/2.5em 'Open Sans';
+        float: left;
+        margin: 0;
+        color: white;
+    }
+    .search-elem{
+        width: 280px;
+        display: inline-block;
+        border-radius: 4px;
+        height: 34px;
+    }
+}
+
+.gray-bg{
+    background-color: $gray-300;
+    font: bold $font-size-base 'Open Sans';
+    color: $theme-font-red;
+}
+
+.data-table{
+    border:1px solid $gray-400;
+}
+.no-br-btm{
+    border-bottom: none;
+}
+
+.status-lbl{
+    padding:5px 14px;
+    border-radius: 5px;
+}
+
+.name-circle{
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:1px solid $white;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+}
+.name-circle:first-child{
+    background-color: $paleCyan;
+    color: $vividCyan;
+}
+.name-circle:nth-child(2){
+    background-color: $paleNavy;
+    color: $lightNavy;
+    position: relative;
+    left:-10px;
+}
+.name-circle:nth-child(3){
+    background-color: $paleOrange;
+    color: $vividOrange;
+    position: relative;
+    left:-20px;
+}
+.name-circle:nth-child(4){
+    background-color: $paleRed;
+    color: $vividRed;
+    position: relative;
+    left:-30px;
+}
+
+.count-member{
+    position: relative;
+    float: right;
+    margin-top: -30px !important;
+}
+
+.btn{
+    font: normal $font-size-sm 'Open Sans';
+    padding:7px 12px !important;
+    min-width: 110px;
+}
+
+.update-btn{
+    background-color: $deepBlue;
+    color: white;
+}
+.update-btn:hover{
+    background-color: $deepDarkBlue;
+    color: white;
+}
+
+.suspend-btn{
+    background-color: $vividOrange;
+    color: white;
+}
+.suspend-btn:hover{
+    background-color: $orange;
+    color: white;
+}
+
+.remove-btn{
+    background-color: $red;
+    color: white;
+}
+.remove-btn:hover{
+    background-color: $vividRed;
+    color: white;
+}
+
+.activate-btn{
+    background-color: $green;
+    color: white;
+}
+.activate-btn:hover{
+    background-color: $deepGreen;
+    color: white;
+}
+// Icons Set classes
+.file-dwd{
+    background: url('../images/services-icon/Sprite-Images.png') no-repeat -10px -10px;
+    width: 15px;
+    height: 20px;
+    border: none;
+    text-indent: -30000px;
+}
+
+//
+.ecert{
+    position: relative;
+    bottom: 19px;
+    right: -30px;
+}
+.user-profile{
+    line-height: 45px;
+}
+.w50{
+    width: 50px;
+}
+
+// User-profile
+.directory-card{
+    border: 1px solid #F1F1F3;
+    .img-thumbnail{
+        border-width: 3px;
+    }
+    .img-thumbnail.active{
+        border-width: 3px;
+        border-color: #07D100;
+    }
+}
+
+.media {
+    .img-thumbnail.active{
+        border-width: 3px;
+        border-color: #07D100;
+    }
+}

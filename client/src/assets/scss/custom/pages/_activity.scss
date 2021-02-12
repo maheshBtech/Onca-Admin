@@ -1,0 +1,115 @@
+.activity-card{
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    .card-body{
+        padding: 0px !important;
+        .inner-card{
+            .card-body{
+                padding: 20px !important;
+            }
+        }
+    }
+    .card-deck{
+        .timeline-h{
+            border:1px solid #dedede !important;
+            .card-body{
+                padding: 10px 20px !important;
+            }
+        }
+        .timeline-h.card{
+            margin: 0;
+            border-radius: 0;
+        }
+        .btn-menu, .btn-menu:active{
+            background-color: transparent;
+            width: unset;
+            min-width: unset;
+            border: none !important;
+            padding: unset !important;
+            position: absolute;
+            right: -99px;
+            top: -20px;
+        }
+        .btn-menu:focus{
+            border: 0px !important;
+            box-shadow: none;
+            border-radius: 0px;
+        }
+        ol{
+            padding: 0 0 0 0 !important;
+            li{
+                font: normal .8em "Roboto";
+                padding-bottom: 5px;
+            }
+        }
+        .addAOD{
+            font-size: 10px;
+            margin-bottom: 0px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+    }
+}
+
+i.act-menu-icon{
+    width: 30px;
+    height: 30px;
+    background-color: #D79735;
+    display: inline-block;
+    border-radius: 50%;
+    i.text{
+        font: bold 1em "Calibri";
+        text-transform: uppercase;
+    }
+    i.run{
+        background: url('../../../../assets/images/activity/activity-icons-w.png') no-repeat 6px -86px;
+        width: 27px;
+        height: 30px;
+        display: block;
+        margin: 0 auto;
+        background-size: 60%;
+    }
+    i.gym{
+        background: url('../../../../assets/images/activity/activity-icons-w.png') no-repeat 5px -255px;
+        width: 27px;
+        height: 30px;
+        display: block;
+        margin: 0 auto;
+        background-size: 60%;
+    }
+}
+
+i.act-icon{
+    width: 30px;
+    height: 30px;
+    background-color: #D79735;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px auto;
+    border-radius: 50%;
+    left: 30%;
+    position: relative;
+    i.text{
+        font: bold 1em "Calibri";
+        text-transform: uppercase;
+    }
+    i.run{
+        background: url('../../../../assets/images/activity/activity-icons-w.png') no-repeat 6px -86px;
+        width: 27px;
+        height: 30px;
+        display: block;
+        margin: 0 auto;
+        background-size: 60%;
+    }
+    i.gym{
+        background: url('../../../../assets/images/activity/activity-icons-w.png') no-repeat 5px -255px;
+        width: 27px;
+        height: 30px;
+        display: block;
+        margin: 0 auto;
+        background-size: 60%;
+    }
+}
+

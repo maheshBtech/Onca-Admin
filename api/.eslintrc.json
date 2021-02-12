@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2017": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 8
+    },
+    "rules": {
+        "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "no-empty-function": ["error", { "allow": ["functions","asyncFunctions", "asyncMethods" ,"constructors" ,"methods"] }]
+    }
+}

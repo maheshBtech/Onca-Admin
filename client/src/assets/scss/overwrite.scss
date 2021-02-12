@@ -1,0 +1,98 @@
+.mt-2-5{
+    margin-top: 2.5em !important;
+}
+.mt-9{
+    margin-top: 90px !important;
+}
+.mb-9{
+    margin-bottom: 90px !important;
+}
+
+.MuiAutocomplete-input{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.MuiFormControl-marginNormal{
+    margin-top: unset !important;
+    .MuiInput-underline:before, .MuiInput-underline:after{
+        border-bottom: 0px !important;
+    }
+    .MuiInput-root{
+        border: 1px solid #E8E9EC;
+        border-radius: 4px;
+        padding: 0px 10px !important;
+    }
+}
+
+.react-switch-bg > div{
+    width: unset !important;
+}
+
+
+.MuiFormControl-root{
+    width: 100%;
+}
+.WAMuiChipInput-underline-15:before, .WAMuiChipInput-underline-15:after{
+    border-bottom: 0px !important;
+}
+
+.chips-input{
+    border:1px solid #ced4da !important; 
+    border-radius: 0.25rem;
+    .MuiInputBase-input{
+        padding: 0.375rem 0.75rem !important;
+        font-size: 1em !important;
+        font-family: "Calibri" !important;
+    }
+}
+
+// Prime Data table
+.datatable-rowexpansion-demo .product-image {
+    width: 100px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.datatable-rowexpansion-demo .orders-subtable {
+    padding: 1rem;
+}
+.p-column-title, .p-datatable-tbody {
+    font: normal 0.75rem "Roboto", sans-serif;
+}
+
+.p-column-title{
+    font-weight: 500;
+}
+
+.pi {
+    font-size: .65rem;
+}
+
+.p-datatable .p-datatable-thead > tr > th{
+    padding: 0.25em 1em;
+}
+
+.group-box{
+    border:3px solid #707070;
+    margin-top: 1em;
+    padding: 20px 10px;
+    span { 
+        background: #fff;
+        padding: 0 10px;
+        margin-top: -32px;
+        position: absolute;
+        z-index: 1;
+        margin-left: -6px;
+    }
+}

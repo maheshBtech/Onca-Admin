@@ -1,0 +1,151 @@
+// 
+// authentication.scss
+//
+
+
+// login-1
+
+.account-pages, .signup-pages {
+  width:80%;
+  min-height: 500px;
+  box-shadow: 15px 30px 80px #00000014;
+  margin: 0 auto;
+  background:white;
+  .left-container{
+    width: 25%;
+    min-height: 500px;
+    background: $theme-black;
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 16%;
+    h1{
+      font: Heavy 29px/15px Swis721 Hv BT;
+      color: $theme-font-orange;
+      span{
+        color: $theme-font-red;
+      }
+    }
+  }
+  .right-container{
+    width: 65%;
+    min-height: 500px;
+    float: left;
+    h2{
+      font: Bold 24px/33px "Calibri";
+      color: $theme-black;
+      border-bottom: 1px solid $gray-500;
+      padding-bottom: 10px;
+    }
+    label{
+      color: $theme-black;
+      font: Bold 18px/24px "Calibri";
+    }
+    .btn-orange{
+      background-color: $theme-font-orange;
+      font: normal 18px/22px Roboto;
+      color:white;
+    }
+    .btn-orange:hover{
+      background-color: #c18426;
+      font: normal 18px/22px Roboto;
+      color:white;
+    }
+    a, a:hover{
+      color: $theme-font-red;
+    }
+  }
+}
+
+//  login-2
+
+.accountbg {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  
+  .account-page-full {
+    left: 0;
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    width: 420px;
+    background-color: $card-bg;
+  
+    .card {
+      border: none;
+    }
+  }
+  
+  .account-copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+
+
+// authentication home icon
+.home-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+
+//  Maintenance
+
+.maintenance-img {
+    img {
+        max-width: 320px;
+      }     
+}
+
+
+// Coundown
+
+/*------------ Subscriber --------------*/
+
+
+.coming-soon-search-form {
+  input {
+      padding: 15px 20px;
+      width: 100%;
+      color: $gray-800;
+      border: 2px solid $gray-200;
+      outline: none !important;
+      padding-right: 180px;
+      padding-left: 30px;
+      border-radius: 30px;
+      background-color: $card-bg;
+  }
+  button {
+      position: absolute;
+      top: 7px;
+      right: 8px;
+      outline: none !important;
+      border-radius: 30px;
+      padding: 9px 30px;
+  }
+  form {
+      position: relative;
+      max-width: 600px;
+      margin: 0px auto;
+  }
+}
+
+// Provider signup Page
+.signup-pages {
+  min-height: 630px;
+  .left-container{
+    min-height: 680px;
+    padding-top: 25%;
+  }
+}
+
+ 
